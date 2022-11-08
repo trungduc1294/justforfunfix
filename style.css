@@ -1,0 +1,62 @@
+*{
+  font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  background: aqua;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(0,0,0,0.4));
+}
+body:hover {
+  animation-name: background;
+  animation-duration: 4s; 
+}
+h1 {
+  text-align: center;
+}
+@keyframes background {
+  0% {
+    background-color: aqua;
+  }
+ 25% {
+    background-color: #9A1663;
+  }
+  50% {
+    background-color: #E0144C;
+  }
+  75% {
+    background-color: #FF5858;
+  }
+  100% {
+    background-color: #FF97C1;
+  }
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 40vh;
+}
+h1{
+  display: block;
+  margin-right: 50px;
+}
+button{
+  display: block;
+  background-color: rgb(181, 181, 255);
+}
+a:link{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+a:hover {
+  color: hotpink;
+}
+
+
